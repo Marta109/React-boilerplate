@@ -1,0 +1,14 @@
+@import "~styles/root";
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $header-size;
+  background-color: rgb(93, 168, 233);
+  box-shadow: 1px 1px 5px rgb(23, 123, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
